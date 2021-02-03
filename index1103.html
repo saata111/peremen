@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>ОЧКИ: <span class="score"></span></h1>
+<button class="btn">
+	buy
+</button>
+
+<script type="text/javascript">
+let num = 0;
+document.querySelector('.score').innerHTML = num;
+document.querySelector('.btn').onclick = function(){
+	num = num + 100;
+	document.querySelector('.score').innerHTML = num;
+}
+
+</script>
+</body>
+</html>
